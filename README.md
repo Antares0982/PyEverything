@@ -13,11 +13,11 @@ PyEverything is exactly what the name suggests: Python bindings for the C functi
 
 ### Installation 
 
-    pip install git+https://github.com/nambread/PyEverything#egg=PyEverything
+    pip install git+https://github.com/Antares0982/PyEverything#egg=PyEverything
 
 This will pull the latest release. Add "@vx.x.x" after the url to pull a specific version. Eg:
     
-    pip install git+https://github.com/nambread/PyEverything@v0.4.0#egg=PyEverything
+    pip install git+https://github.com/Antares0982/PyEverything@v0.4.0#egg=PyEverything
 
 If your version of python is not officially supported, but you still wish to use it, follow the "Building from Source" instructions.
 
@@ -114,7 +114,7 @@ Building from source is done via python and setuptools. The extension module is 
 
 ### Instructions
 1. Clone this repo and initialise submodules:
-    * `git clone --recurse-submodules https://github.com/nambread/PyEverything`
+    * `git clone --recurse-submodules https://github.com/Antares0982/PyEverything`
 2. Activate your virtual environment of choice.
 3. CD to the root repo folder and run `python setup.py bdist_wheel`
 4. You should get a wheel for your python version put in the newly created .\dist folder.

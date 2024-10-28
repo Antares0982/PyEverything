@@ -40,7 +40,7 @@ setup(
         ext_modules = [pyd_ext],
         include_package_data=True,
         package_data={NAME: ['_PyEverything.pyi']},
-        python_requires = '>=3.7,<3.10',
+        python_requires = '>=3.7',
         long_description=README,
         long_description_content_type="text/markdown",
         platforms = ['windows'],
@@ -51,7 +51,10 @@ setup(
             'Programming Language :: Python :: 3.7',
             'Programming Language :: Python :: 3.8',
             'Programming Language :: Python :: 3.9',
+            'Programming Language :: Python :: 3.10',
+            'Programming Language :: Python :: 3.11',
+            'Programming Language :: Python :: 3.12',
+            'Programming Language :: Python :: 3.13',
             'Programming Language :: Python :: Implementation :: CPython',
-            
         ]
     )
